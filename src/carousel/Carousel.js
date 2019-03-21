@@ -202,7 +202,7 @@ export default class Carousel extends Component {
                 return;
             }
 
-            this._snapToItem(_firstItem, false, false, true, false);
+            this._snapToItem(_firstItem, true, false, true, false);
             this._hackActiveSlideAnimation(_firstItem, 'start', true);
 
             if (apparitionDelay) {
